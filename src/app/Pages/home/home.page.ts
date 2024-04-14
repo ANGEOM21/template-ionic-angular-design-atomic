@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  type: string = 'email';
+  placeholder: string = 'email';
   constructor() {}
 
 }
